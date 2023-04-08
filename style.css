@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #7fc7bb;
+}
+
+#project-tile {
+    width: 100;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    background: #171717;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+nav ul a {
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+}
+
+nav ul a li:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+.active {
+    color: red;
+}
+
+.container {
+    height: 70vh;
+    width: 50vh;
+    margin: 70px auto;
+    border: 5px solid yellowgreen;
+}
+
+.container1 {
+    height: 70vh;
+    width: 50vh;
+    margin: 70px auto;
+    border: 5px solid yellowgreen;
+}
+
+.image img {
+    height: 70vh;
+    width: 50vh;
+}
+
+.img1-des {
+    /* text-transform: uppercase; */
+    padding-top: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 1em;
+    width: 50%;
+    margin: auto;
+}
+
+.img1-des li {
+    padding-top: 10px;
+}
+
+.dates {
+    /* border: 2px solid white; */
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+    border: 2px solid blueviolet;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+.list-heading {
+    /* border: 2px solid white; */
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+    background: gray;
+    color: black;
+    font-size: 30px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(196, 57, 57);
+}
+
+.item-list {
+    /* border: 2px solid white; */
+    width: 60%;
+    margin: auto;
+
+}
+
+.item-list ul li {
+    padding-top: 15px;
+}
+
+.heading {
+    list-style: none;
+}
+
+.heading p {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* fot the footer */
+
+footer {
+    border-radius: 20px 20px 0 0;
+    margin-top: 90px;
+    height: 30vh;
+    background: #121212;
+}
+
+.footer-content {
+    /* color: white; */
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.footer-content ul li {
+    margin-top: 0px;
+    padding-top: 25px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.footer-content ul a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 100px;
+
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #666666;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-width: 0.1px;
+    width: 60%;
+    margin: 30px auto;
+    height: 40%;
+    position: relative;
+}
+
+.copyright a {
+    color: white;
+    text-decoration: none;
+
+}
+.copyright div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(89 89 255);
+}
+
+.copyright span {
+    color: #f03737;
+}
+
+.copyright div a:hover {
+    color: green;
+}
+
+.footer-content ul a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Media query for responsiveness */
+/* ******for large devices */
+@media (min-width:1200px) {}
+
+/* *********Medium devices */
+@media (min-width:992px) and (max-width: 1199px) {}
+
+
+/* *********Small devices only */
+@media (min-width:768px) and (max-width:991px) {}
+
+
+/* *******extra small devices */
+@media (max-width:767px) {
+    .container1 {
+        width: auto;
+        text-align: center;
+        height: 50vh;
+        border: none;
+    }
+
+    .container {
+        height: 50vh;
+        width: auto;
+        text-align: center;
+        border: none;
+    }
+
+    .image img {
+        height: 50vh;
+        width: 40vh;
+    }
+
+    .img1-des {
+        /* text-transform: uppercase; */
+        text-align: justify;
+        color: black;
+        font-size: 1em;
+        padding: 15px;
+        width: 70%;
+    }
+
+    .img1-des li {
+        padding-top: 20px;
+    }
+
+    nav ul a li {
+        text-align: right;
+    }
+
+    .list-heading {
+        width: 80%;
+    }
+
+    .item-list {
+        width: 80%;
+    }
+
+    .item-list ul li {
+        padding-top: 30px;
+    }
+}
