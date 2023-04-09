@@ -53,4 +53,8 @@
     .pdf{
         width: 90%;
     }
+    .resume embed{
+        height: 70vh;
+        width: auto;
+    }
 }
