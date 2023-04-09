@@ -40,7 +40,11 @@
 }
 
 
-
+.resume embed{
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vh;
+}
 
 
 
